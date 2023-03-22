@@ -1,6 +1,6 @@
 # Keystroke Injector: Python Script to Simulate Keystrokes
 
-This project contains a Python script that uses the PyAutoGUI library to simulate keystrokes on the keyboard. The script reads a text file containing lines of code and simulates typing them character by character with random delays between keystrokes. It also simulates pressing the Enter key after each line is typed. In addition, it includes an extra "Enter" press to prevent auto-complete from IDE, which is applied to the first five lines of code.
+This project contains a Python script that uses the PyAutoGUI library to simulate keystrokes on the keyboard. The script reads a text file containing lines of code and simulates typing them character by character with random delays between keystrokes (Simulating human writting). It also simulates pressing the Enter key after each line is typed. In addition, it includes an extra "Enter" press to prevent auto-complete from IDE, which is applied to the first five lines of code.
 
 ## Buy me a coffe
 Whether you use this project, have learned something from it, or just like it, please consider supporting it by buying me a coffee, so I can dedicate more time on open-source projects like this :)
