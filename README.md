@@ -1,8 +1,6 @@
 # Python Keystroke Injector
 
-This project contains a Python script that uses the PyAutoGUI library to simulate keystrokes on the keyboard. The script reads a text file containing lines of code and simulates typing them character by character with random delays between keystrokes (Simulating human writting). It also simulates pressing the Enter key after each line is typed. In addition, it includes an extra "Enter" press to prevent auto-complete from IDE, which is applied to the first five lines of code.
-
-
+This Python script is a keystroke injector that reads text from a file and simulates typing it into an active window on your computer. It's designed to mimic the typing speed and rhythm of a human, complete with randomized pauses between keystrokes.
 
 
 ## Potential Applications
@@ -12,18 +10,29 @@ This project contains a Python script that uses the PyAutoGUI library to simulat
 3. **Automating Repetitive Tasks:** If you have a task that involves repetitive text input, this script can automate it.
 4. **Typing Practice:** With some modifications, this script can be used as a typing tutor, helping users to learn and practice typing skills.
 
+
 ## Installation
 
-You can install the PyAutoGUI library using the following command in your terminal:
+Please note that the script uses the pyautogui library to simulate keystrokes. You'll need to install this library before running the script. 
 
 ```pip install pyautogui```
 
 ## Usage
 
-This script reads from a text file named keystokes.txt, so ensure this file exists and contains the text you want to type.
+This script reads from a text file named ```keystrokes.txt```, so ensure this file exists and contains the text you want to type.
 
-1. Open your console
-2. To run this script go to the script folder and type: ```python keystroke_injection.py```
+1. Open your console.
+2. Navigate to the folder where the script is located using the cd command.
+3. To run this script, type: ```python keystroke_injector.py```
+
+Remember to switch to the window where you want the text to be typed within 5 seconds of running the script, as it includes a delay to allow you to do so.
+
+
+# Key Features
+
+1. **Delay before Starting:** The script includes a 5-second delay at the start, allowing you to switch to the appropriate window before the simulated typing begins.
+2. **Simulated Human Typing:** The script simulates typing with randomized delays between keystrokes, providing a realistic typing effect.
+3. **Prevention of Auto-Complete:** To ensure the integrity of the text being typed and prevent interference from text editor or IDE auto-complete features, the script includes an additional 'Enter' press for the first 5 lines.
 
 
 # Disclaimer
