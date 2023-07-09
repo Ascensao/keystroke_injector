@@ -7,7 +7,7 @@ count = 0
 time.sleep(5)
 
 # open the text file and read its contents
-with open("keys.txt", "r") as f:
+with open("keysroke.txt", "r") as f:
     code = f.read()
 
 # simulate the keystrokes for each line of code
